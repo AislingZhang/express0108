@@ -1,0 +1,64 @@
+GET http://localhost:3000/books
+Accept: application/json
+
+<> 2020-01-08T110417.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: application/json
+
+<> 2020-01-08T095616.200.json
+
+###
+
+DELETE http://localhost:3000/books/2
+
+<> 2020-01-08T095602.200.json
+
+###
+
+GET http://localhost:3000/books
+
+<> 2020-01-08T095534.200.json
+
+###
+
+GET http://localhost:3000/books
+
+<> 2020-01-08T095356.200.json
+
+###
+
+DELETE http://localhost:3000/books/2
+
+<> 2020-01-08T095143.404.html
+
+###
+
+GET http://localhost:3000/books
+Accept: application/json
+
+<> 2020-01-08T095112.200.json
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "name": "book3",
+  "price": 500
+}
+
+<> 2020-01-08T095059.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: application/json
+
+<> 2020-01-08T095017.200.json
+
+###
+
